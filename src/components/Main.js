@@ -1,8 +1,8 @@
 import React from "react";
 
-const Main = () => (
+const Main = (props) => (
   <main className="main-container">
-    <h1>This is the main section</h1>
+    {props.children}
   </main>
 );
 

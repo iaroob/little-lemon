@@ -20,6 +20,13 @@
   font-weight: 600;
 }
 
+.nav-links li {
+  transition: transform ease 300ms;
+}
+
+.nav-links li:hover {
+  transform: translate(0, -10px);
+}
 .nav-logo {
   width: 45%;
 }
@@ -30,7 +37,7 @@
     justify-content: center; 
     text-align: center;
     margin: 0 auto;
-    gap: 3rem; 
+    gap: 3rem;
   }
 
   .nav-logo {
@@ -46,5 +53,11 @@
 }
 
 .main-container {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr 2fr;
+}
+
+.about-container, .testimonials-container {
   background-color: #495e57;
 }
+

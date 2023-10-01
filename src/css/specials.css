@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&family=Markazi+Text:wght@400;500&display=swap');
+
+.specials-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.specials-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1rem 5rem;
+}
+
+.specials-title {
+  font-size: 70px;
+  font-family: 'Markazi Text', serif;
+  font-weight: 500;
+}
+
+.specials-buttonArea {
+  display: flex;
+  align-items: center;
+}
+
+#specials-button  {
+  border: none;
+  cursor: pointer;
+  color: #333333;
+  background-color: #F4CE14;
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 1rem 3rem;
+}
+
+#specials-button:hover {
+  background-color: #c4a507;
+}
+
+.specials-cards {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 3rem;
+}
+
+.specials-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+  transition: transform ease 300ms;
+  background-color: #EDEFEE;
+  border-radius: 1rem;
+  max-width: 20%;
+}
+
+.specials-card:hover {
+  cursor: pointer;
+  transform: translate(0, -10px);
+}
+
+.card-content {
+  margin: 0 1.5rem;
+  text-align: left;
+}
+
+.card-img {
+  max-width: 100%;
+  border-radius: 1rem 1rem 0 0;
+  height: 100%;
+}
+
+.card-title {
+  font-family: 'Markazi Text', serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.card-text {
+  margin-top: -1rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  max-width: 75%;
+  font-weight: 400;
+}
+
+.card-subtitle {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
