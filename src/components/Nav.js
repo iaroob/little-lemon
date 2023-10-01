@@ -2,9 +2,9 @@ import React from "react";
 import logo from '../assets/logo.svg';
 
 const Nav = () => (
-  <nav>
-    <img src={logo} alt="logo"/>
-    <ul>
+  <nav className="nav-container">
+    <img src={logo} alt="logo" className="nav-logo"/>
+    <ul className="nav-links">
       <li><a href="./">Home</a></li>
       <li><a href="./">About</a></li>
       <li><a href="./">Menu</a></li>
