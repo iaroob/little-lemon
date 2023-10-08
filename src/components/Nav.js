@@ -1,14 +1,15 @@
 import React from "react";
 import logo from '../assets/logo.svg';
+import {Link} from 'react-router-dom';
 
 const Nav = () => (
   <nav className="nav-container">
     <img src={logo} alt="logo" className="nav-logo"/>
     <ul className="nav-links">
-      <li><a href="./">Home</a></li>
+      <li><Link to="/" className="navlink">Home</Link></li>
       <li><a href="./">About</a></li>
       <li><a href="./">Menu</a></li>
-      <li><a href="./">Reservations</a></li>
+      <li><Link to="/booking" className="navlink">Reservations</Link></li>
       <li><a href="./">Order online</a></li>
       <li><a href="./">Login</a></li>
     </ul>
