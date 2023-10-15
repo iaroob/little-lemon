@@ -37,13 +37,17 @@
 
 .description-image-1 {
   z-index: -1;
-  margin-left: 12rem;
+  margin-left: 13rem;
   width: 70%;
+  box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+  border-radius: 16px;
 }
 
 .description-image-2 {
   z-index: 1;
-  margin-left: 2rem;
+  margin-left: 0.5rem;
   width: 70%;
   margin-top: -3.5rem;
+  box-shadow: 3px 3px 15px rgba(0,0,0,.2);
+  border-radius: 16px;
 }

@@ -28,7 +28,7 @@
   transform: translate(0, -5px);
 }
 .nav-logo {
-  width: 45%;
+  width: 300px;
 }
 @media (max-width: 768px) {
   .nav-container {
@@ -57,7 +57,7 @@
   grid-template-rows: 0.5fr 1fr 0.5fr 0.7fr;
 }
 
-.about-container, .testimonials-container {
+.about-container, .testimonials-container{
   background-color: #495e57;
 }
 

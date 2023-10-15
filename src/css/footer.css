@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600&family=Markazi+Text:wght@400;500&display=swap');
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.footer-container {
+  border-top: 10px groove #495e57;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:flex-start;
+  margin: 3em 0;
+}
+
+.footer-logo {
+  margin-right: 3em;
+  width: 20%;
+  margin-top: 3em;
+}
+
+.footer-contact, .footer-socials, .footer-nav {
+  margin-left: 1em;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+  font-family: 'Markazi Text', serif;
+  letter-spacing: 0.15em;
+}
+
+.footer-text {
+  line-height: 0.3em;
+  font-family: 'Karla', sans-serif;
+}
+
+.footer-logo img {
+  width: 300px;
+  height: auto;
+}
+
+.footer-socials, .footer-contact {
+  margin-left: -3em;
+}
+
+.footer-socials .footer-text, .footer-contact .footer-text {
+  margin-left: 1em;
+}
+
+.footer-text i {
+  font-size: 18px;
+}
